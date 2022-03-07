@@ -32,10 +32,10 @@ public class MillionWord{
                         //turning into ascii value
                         int charAscii = (int) currentChar;
                         //getting the designated value A=1, B=2...
-                        int letterValue = charAscii - 96;
+                        //int letterValue = charAscii - 96;
 
                         //the above code can be replaced with:
-                        //int letterValue = 26 - (charAscii - 97);
+                        int letterValue = 26 - (charAscii - 97);
                         //this allows a new value for each letter: A=26, B=25...
 
 
