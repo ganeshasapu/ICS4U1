@@ -4,7 +4,7 @@
 
 import java.util.ArrayList;
 
-public class cards {
+public class Cards{
     //Creating a Card Class
     private static class Card{
         //The two values we need stored for each card
@@ -124,7 +124,7 @@ public class cards {
     public static void main(String[] args) {
 
         //METHOD 1: ARRAYLIST + OBJECTS
-        System.out.println("METHOD 1: ARRAYLIST");
+        System.out.println("METHOD 1: ARRAYLIST + OBJECTS");
         ArrayList<Card> cards = new ArrayList<Card>();
 
         //Instantiating Array
@@ -138,6 +138,7 @@ public class cards {
         }
 
         //Printing array
+        
         for (Card card : cards) {
             System.out.printf("%s%c %n", card.getCardValue(), card.getCardSuit());
         }
@@ -155,6 +156,7 @@ public class cards {
         }
 
         System.out.println("\n\n\n");
+        System.out.println("Shuffled: ");
 
         //Printing array
         for (Card card : cards) {
@@ -190,6 +192,7 @@ public class cards {
         shuffle(cardDeck);
 
         System.out.println("\n\n\n");
+        System.out.println("Shuffled: ");
 
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 13; j++) {
