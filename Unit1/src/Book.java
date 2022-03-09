@@ -8,9 +8,11 @@ public class Book {
         publishDate = bookPublishDate;
 	}
     public void printInfo(){
+        //method to print basic info
         System.out.printf("Title: %s | Author: %s | Publishing Year: %d | %n", title, authorName, publishDate);
     }
     public int getPublishDate(){
+        //method to get the publishing date of book
         return publishDate;
     }
 }

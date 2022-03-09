@@ -10,7 +10,7 @@ public class RandomWord {
         char[] consonants = {'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z'};
 
         //where the generated word will be stored
-        String generatedString = new String("");
+        String generatedString = "";
 
         //50% chance for either option (deciding 1 or 2 vowels)
         if(Math.random() < 0.5){

@@ -4,7 +4,6 @@
 public class SelectionSort {
     public static void main(String[] args) {
 
-        //Creating Array
         int[] testArray = new int[12];
         for (int i = 0; i < testArray.length; i++) {
             //Setting all elements in array to random value between 1-100
@@ -31,7 +30,6 @@ public class SelectionSort {
             }
             //creating temp variable for a swap
             int temp = testArray[minIndex];
-            //swapping
             testArray[minIndex] = testArray[i];
             testArray[i] = temp;
         }
